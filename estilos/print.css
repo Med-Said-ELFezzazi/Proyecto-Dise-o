@@ -1,0 +1,27 @@
+@media print {
+    .nav-links {
+        display: contents;
+        color: white;
+        width: 100%;
+        /*display: flex;*/
+        justify-content: center;
+        vertical-align: middle;
+    }
+
+    .nav-links a {
+        margin: .2em;
+    }
+    
+    .hamburger-button{
+        pointer-events: none;
+    }
+
+    .toxic,.mushroom{
+        animation-play-state: paused;
+    }
+
+    div:nth-child(3) h3 img{
+        display: contents;
+        margin: auto;
+    }
+}

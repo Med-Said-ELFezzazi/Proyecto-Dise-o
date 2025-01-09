@@ -1,0 +1,196 @@
+@import url("./footer.css");
+@import url("./cookies.css");
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(226, 128, 48) 120%);
+}
+
+
+main.contacto {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Cabecera y menú */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #FF6B35;
+}
+
+header img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.menu {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.menu input[type="checkbox"] {
+    display: none;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.menu-content {
+    display: none;
+}
+
+/* .menu input[type="checkbox"]:checked + .menu-content {
+    display: block;
+} */
+#menuToggle:checked + .menu-content {
+    display: block;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #0073e6;
+}
+
+/* Formulario */
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+legend h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+table label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Botón */
+.my-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.my-button:hover {
+    background-color: #005bb5;
+}
+
+/* Imagen al pie del formulario */
+#img2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+
+footer .list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .list-inline li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .list-inline li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer .list-inline li a:hover {
+    color: #0073e6;
+}
+
+.social a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social img {
+    width: 24px;
+    height: 24px;
+}
+
+.social img:hover {
+    filter: brightness(0.7);
+}
+
+footer p.copyright {
+    color: #777;
+    margin-top: 10px;
+}
