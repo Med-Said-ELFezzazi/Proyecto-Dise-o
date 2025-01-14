@@ -13,9 +13,14 @@ header{
     height: fit-content;
 }
 header h1{
-    color: white;
+    color: balck;
     text-align: center;
+    font-family: 'Verdana', sans-serif;
 
+}
+
+body{
+    font-family: 'Helvetica', sans-serif;
 }
 
 .hamburger-button {
