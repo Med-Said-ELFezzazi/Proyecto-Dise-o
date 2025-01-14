@@ -101,6 +101,11 @@ article img {
     display: block;
 }
 
+.list-inline li{
+    color: black;
+} 
+
+
 /* Estilo para los botones dentro del artículo */
 /* article button {
     background-color: #FF6B35;
