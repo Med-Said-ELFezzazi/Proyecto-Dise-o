@@ -17,7 +17,22 @@
 
     <form action="https://www.w3schools.com/action_page.php" method="POST">
         <fieldset>
-            <legend><h2>Únete a nuestro programa de entrenamiento online</h2></legend>
+            <form>
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+                </div>
+                <div>
+                    <label for="apellido">Apellido: </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+                </div>
+                <div>
+                    <label for="edad">Edad: </label>
+                    <input type="number" name="edad" id="edad" placeholder="Ej: 30">
+                </div>
+            </form>
+            
+            <!-- <legend><h2>Únete a nuestro programa de entrenamiento online</h2></legend>
             <table role="presentation">
                 <tr>
                     <td><label for="nombre">Nombre: </label></td>
@@ -66,7 +81,7 @@
                     <td><textarea name="mensaje" id="mensaje" placeholder="Escribe aquí tus consultas o especificaciones"></textarea></td>
                 </tr>
             </table>
-            <button class="my-button">Enviar</button>
+            <button class="my-button">Enviar</button> -->
         </fieldset>
     </form>
 </main>
