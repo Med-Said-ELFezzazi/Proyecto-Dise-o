@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rethink+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Dyslexic&display=swap');
 @import url("./footer.css");
 @import url("./cookies.css");
 @import url("./formulario.css");
@@ -9,21 +9,8 @@
 }
 
 /*GENERAL*/
-body{
-    display: grid;
-    grid-template-columns: 0.5fr repeat(2, 1fr);
-    grid-template-rows: 0.1fr repeat(2, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(226, 128, 48) 120%);
-    font-family: 'Helvetica', sans-serif;
-}
-h1,h2,h3,h4{
-    font-family: 'Verdana', sans-serif;
-}
 
-
-/* body {
+body {
     display: grid;
     grid-template-columns: 0.5fr repeat(2, 1fr);
     grid-template-rows: 0.1fr repeat(2, 1fr);
@@ -35,7 +22,7 @@ h1,h2,h3,h4{
 
 h1, h2, h3, h4 {
     font-family: 'Open Dyslexic', 'Verdana', sans-serif; 
-} */
+}
 
 
 

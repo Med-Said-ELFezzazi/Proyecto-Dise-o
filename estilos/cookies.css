@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Dyslexic&display=swap');
+
 .aviso-cookies {
 	display: none;
 	background: #fff;
@@ -31,7 +33,7 @@
 	background: #595959;
 	border: none;
 	color: #fff;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Dyslexic', 'Verdana', sans-serif; 
 	text-align: center;
 	padding: 0.938em 1.25em;
 	font-weight: 700;

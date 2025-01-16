@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Dyslexic&display=swap');
 @import url("./footer.css");
 
 *{
@@ -15,12 +16,12 @@ header{
 header h1{
     color: balck;
     text-align: center;
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Open Dyslexic', 'Verdana', sans-serif; 
 
 }
 
 body{
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Open Dyslexic', 'Helvetica', sans-serif; 
 }
 
 .hamburger-button {
@@ -74,7 +75,7 @@ article {
     max-width: 1200px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para darle profundidad */
-    font-family: 'Arial', sans-serif;
+    font-family: 'Open Dyslexic', 'Helvetica', sans-serif; 
 }
 
 body h2 {

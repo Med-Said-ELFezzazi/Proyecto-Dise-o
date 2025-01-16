@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Dyslexic&display=swap');
 @import url("./footer.css");
 @import url("./cookies.css");
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Open Dyslexic', 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgb(226, 128, 48) 120%);
