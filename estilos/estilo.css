@@ -235,6 +235,10 @@ section div:hover img {
 
 /* Pantallas medianas*/
 @media screen and (min-width:768px) and (max-width:1023px) {
+    video {
+        width: 80%; /* Reducir el ancho del video */
+        max-width: 600px;
+    }
     .nav-links {
         display: contents;
         color: white;
@@ -395,12 +399,12 @@ section div:hover img {
     }
     
     /* Estilo para pantallas más pequeñas, asegurando que el video siga siendo visible y responsivo */
-    @media (max-width: 768px) {
+    /*@media (max-width: 768px) {
         #video {
-        width: 100%;
-        height: auto;         
+        width: 10%;
+        height: 40%;         
         }
-    }
+    }*/
   
     @-webkit-keyframes grow {
         0% {
@@ -439,30 +443,26 @@ section div:hover img {
         transform: scale(1.2);
         text-shadow: 0.938em -0.6em 0.13em #ec9b2a;
     }
-    
-
-    /* Video  */
-    /* Estilo predeterminado (pantallas grandes) */
-video {
-    width: 100%; /* Asegúrate de que ocupa todo el ancho disponible */
-    max-width: 800px; /* Tamaño máximo del video */
-    height: auto; /* Mantener proporción */
 }
 
-/* Para pantallas medianas (entre 768px y 1024px) */
-@media (max-width: 1024px) and (min-width: 768px) {
-    video {
-        width: 80%; /* Reducir el ancho del video */
-        max-width: 600px; /* Tamaño máximo para pantallas medianas */
+
+/*  pantalla pequeña */
+@media screen and (max-width: 767px) {
+    body {
+        grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
+        grid-template-rows: auto;   /* Ajustar filas automáticamente */
     }
-}
 
-/* Para pantallas pequeñas (menores a 768px) */
-@media (max-width: 767px) {
-    video {
-        width: 90%; /* Más pequeño pero ocupando la mayoría del ancho */
-        max-width: 400px; /* Límite del tamaño del video */
+    header {
+        text-align: center; 
     }
-}
+
+    /* confi del video en index  */
+    #video {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* conf servicios  */
 
 }
