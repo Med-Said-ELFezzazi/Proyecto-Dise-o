@@ -440,4 +440,29 @@ section div:hover img {
         text-shadow: 0.938em -0.6em 0.13em #ec9b2a;
     }
     
+
+    /* Video  */
+    /* Estilo predeterminado (pantallas grandes) */
+video {
+    width: 100%; /* Asegúrate de que ocupa todo el ancho disponible */
+    max-width: 800px; /* Tamaño máximo del video */
+    height: auto; /* Mantener proporción */
+}
+
+/* Para pantallas medianas (entre 768px y 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    video {
+        width: 80%; /* Reducir el ancho del video */
+        max-width: 600px; /* Tamaño máximo para pantallas medianas */
+    }
+}
+
+/* Para pantallas pequeñas (menores a 768px) */
+@media (max-width: 767px) {
+    video {
+        width: 90%; /* Más pequeño pero ocupando la mayoría del ancho */
+        max-width: 400px; /* Límite del tamaño del video */
+    }
+}
+
 }
