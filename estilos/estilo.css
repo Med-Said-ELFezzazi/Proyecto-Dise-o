@@ -89,7 +89,6 @@ h2{
 }
 
 button{
-    /* background-color: #634846; */
     background-color: #1A535C ;
     color: white;
     padding: 1em;
@@ -397,14 +396,6 @@ section div:hover img {
         margin: 0 auto;
         border-radius: 8px;    
     }
-    
-    /* Estilo para pantallas más pequeñas, asegurando que el video siga siendo visible y responsivo */
-    /*@media (max-width: 768px) {
-        #video {
-        width: 10%;
-        height: 40%;         
-        }
-    }*/
   
     @-webkit-keyframes grow {
         0% {
