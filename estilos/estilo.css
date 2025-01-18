@@ -464,5 +464,12 @@ section div:hover img {
     }
 
     /* conf servicios  */
-
+    /*.services section {
+        grid-template-columns: 1fr;
+        
+    }
+    section#servicios-disponibles {
+        flex-direction: column;
+      }*/
 }
+
