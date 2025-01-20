@@ -261,7 +261,8 @@ section div:hover img {
         height: -moz-fit-content;
         height: fit-content;
         width: 90%;
-        background-color: #ec731e;
+        /* background-color: #ec731e; */
+        /* background-color: green; */
         color: white;
         padding: 1%;
     }
@@ -325,7 +326,15 @@ section div:hover img {
 .services div:nth-child(even){
     grid-column: 3;
 }
-.services main div, .services main div:nth-child(3){
+/* .services main div, .services main div:nth-child(3){
+    border: black solid 0.2em;
+    border-radius: 3%;
+    width: 135%;
+    margin: 5%;
+    padding: 3%;
+    text-align: center;
+}   */
+.services main div{
     border: black solid 0.2em;
     border-radius: 3%;
     width: 135%;
@@ -439,28 +448,26 @@ section div:hover img {
 
 /*  pantalla pequeña */
 @media screen and (max-width: 767px) {
-    body {
-        grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
-        grid-template-rows: auto;   /* Ajustar filas automáticamente */
+    .services main {
+        grid-template-columns: 1fr; /* Una sola columna */
+        grid-template-rows: auto; /* Ajusta las filas automáticamente */
+        grid-column: 1 / -1; /* Ocupa todo el ancho del contenedor */
     }
 
-    header {
-        text-align: center; 
-    }
-
-    /* confi del video en index  */
-    #video {
+    .services main img {
         width: 100%;
-        max-width: 600px;
+        margin-bottom: 20px;
     }
 
-    /* conf servicios  */
-    /*.services section {
-        grid-template-columns: 1fr;
-        
+    .services section {
+        grid-column: 1 / -1; /* Ocupa todo el ancho del contenedor */
+        display: flex;
+        flex-direction: column; /* Coloca los elementos en columna */
+        gap: 20px; /* Espaciado entre los artículos */
     }
-    section#servicios-disponibles {
-        flex-direction: column;
-      }*/
+
+    .services main div{
+        width: 80%;
+    }
 }
 

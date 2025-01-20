@@ -20,4 +20,3 @@ document.getElementById('btn-color').addEventListener('click', function() {
         esta_cambiado = true;
     }
 });
-
