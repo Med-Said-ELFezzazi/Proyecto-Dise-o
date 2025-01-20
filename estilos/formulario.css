@@ -195,3 +195,71 @@ footer p.copyright {
     color: #777;
     margin-top: 10px;
 }
+
+/* Botón de cambiar color  */
+button{
+    background-color: #1A535C ;
+    color: white;
+    padding: 1em;
+    border-radius: 8em;
+}
+
+/* pantalla media  */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px; /* Ajuste de tipografía */
+    }
+
+    main.contacto {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    header img {
+        max-height: 250px; /* Tamaño moderado para la imagen */
+    }
+
+    table td {
+        padding: 10px;
+    }
+
+    .menu ul li {
+        display: inline-block; /* Menú sigue siendo horizontal */
+        margin: 0 10px;
+    }
+}
+
+/* Pantalla pequeña  */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    main.contacto {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    header img {
+        max-height: 150px;
+    }
+
+    .menu ul li {
+        display: block; /* Menú vertical */
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+    table td {
+        padding: 8px;
+    }
+
+    .my-button {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}
