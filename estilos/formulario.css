@@ -278,7 +278,8 @@ button{
 /* Pantalla pequeña  */
 @media (max-width: 767px) {
     body {
-        font-size: 14px;
+        grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
+        grid-template-rows: auto;   /* Ajustar filas automáticamente */
     }
 
     main.contacto {

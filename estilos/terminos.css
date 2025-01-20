@@ -34,8 +34,8 @@ body{
 
 /* tamaño*/
 .hamburger-button img{
-    height: 1em;
-    width: 1em;
+    width: 30px;
+    height: 20px;
 }
 
 
@@ -141,6 +141,7 @@ article img {
     body {
         grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
         grid-template-rows: auto;   /* Ajustar filas automáticamente */
+        
     }
 
     header {
