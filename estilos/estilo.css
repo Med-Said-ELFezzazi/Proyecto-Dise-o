@@ -252,7 +252,8 @@ section div:hover img {
     .hamburger-button{
         pointer-events: none;
     }
-    div:nth-child(3){
+
+    /*div:nth-child(3){
         grid-column: 1;
         grid-row: 3/5;
         border: solid 0.1em black ;
@@ -261,11 +262,11 @@ section div:hover img {
         height: -moz-fit-content;
         height: fit-content;
         width: 90%;
-        /* background-color: #ec731e; */
-        /* background-color: green; */
+        /* background-color: #ec731e; 
         color: white;
         padding: 1%;
-    }
+    }*/
+
     div:nth-child(3) img{
         display: none;
     }
