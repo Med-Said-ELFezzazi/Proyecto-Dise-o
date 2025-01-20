@@ -450,7 +450,7 @@ section div:hover img {
 /*  pantalla pequeña */
 @media screen and (max-width: 767px) {
     /* por la página home  */
-    body {
+    .home {
         grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
         grid-template-rows: auto;   /* Ajustar filas automáticamente */
     }
