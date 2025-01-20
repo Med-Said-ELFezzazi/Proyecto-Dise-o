@@ -449,6 +449,20 @@ section div:hover img {
 
 /*  pantalla pequeña */
 @media screen and (max-width: 767px) {
+    /* por la página home  */
+    body {
+        grid-template-columns: 1fr; /* Ajustar el grid a una sola columna */
+        grid-template-rows: auto;   /* Ajustar filas automáticamente */
+    }
+    header {
+        text-align: center; 
+    }
+    #video {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    /* página de servicios  */
     .services main {
         grid-template-columns: 1fr; /* Una sola columna */
         grid-template-rows: auto; /* Ajusta las filas automáticamente */
@@ -470,5 +484,7 @@ section div:hover img {
     .services main div{
         width: 80%;
     }
+
+
 }
 
