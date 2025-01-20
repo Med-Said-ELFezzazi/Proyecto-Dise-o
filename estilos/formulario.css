@@ -204,6 +204,52 @@ button{
     border-radius: 8em;
 }
 
+/* menu hamburgesa y nav links  */
+.hamburger-button {
+    /* background-color: #1A535C;
+    color: white;
+    padding: 20px;
+    border-radius: 140px;
+    cursor: pointer; */
+    display: none;
+}
+
+.hamburger-button img {
+    width: 30px;
+    height: 20px;
+}
+.services #hamburger-menu img {
+    width: 30px;
+    height: 20px;
+}
+
+/* Enlaces*/
+.nav-links {
+    /* display: none;
+    width: 70%; */
+    display: block;
+}
+.nav-links a {
+    background-color: #FFD166;
+    display: inline-block;
+    padding: 13px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 150px; /* Establece un ancho inicial */
+    transition: width 0.3s ease; /* Transición para el cambio de ancho */
+    text-align: center;
+}
+.nav-links a:hover {
+    background-color: #E85032;
+    border: 1px dashed black;
+    width: 200px; /* Ancho al hacer hover */
+
+}
+.nav-links.show {
+    display: inline-block;
+}
+
 /* pantalla media  */
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
@@ -261,5 +307,12 @@ button{
     .my-button {
         font-size: 14px;
         padding: 8px 10px;
+    }
+    .nav-links {
+        display: none; /* Ocultar enlaces de navegación */
+    }
+
+    .hamburger-button {
+        display: block; /* Mostrar el botón de menú hamburguesa */
     }
 }

@@ -1,3 +1,7 @@
+document.querySelector('.hamburger-button').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('show');
+});
+
 let estaCambiado = false;
 
 document.getElementById('btn-color').addEventListener('click', function() {
