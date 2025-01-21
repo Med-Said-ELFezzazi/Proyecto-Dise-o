@@ -234,6 +234,7 @@ section div:hover img {
 
 /* Pantallas medianas*/
 @media screen and (min-width:768px) and (max-width:1023px) {
+    /* Comun */
     video {
         width: 80%; /* Reducir el ancho del video */
         max-width: 600px;
@@ -313,31 +314,6 @@ section div:hover img {
 
 
 }
-
-/* 
-.services div:nth-child(odd){
-    grid-column: 1;
-}
-
-.services div:nth-child(even){
-    grid-column: 3;
-} */
-/* .services main div, .services main div:nth-child(3){
-    border: black solid 0.2em;
-    border-radius: 3%;
-    width: 135%;
-    margin: 5%;
-    padding: 3%;
-    text-align: center;
-}   */
-/* .services main div{
-    border: black solid 0.2em;
-    border-radius: 3%;
-    width: 135%;
-    margin: 5%;
-    padding: 3%;
-    text-align: center;
-}   */
 
 /*Pantallas grandes*/
 @media screen and (min-width:1024px) {
@@ -488,6 +464,4 @@ section div:hover img {
         width: 80%;
     }
 
-
 }
-
