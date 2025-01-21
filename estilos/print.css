@@ -1,27 +1,26 @@
 @media print {
     .nav-links {
-        display: contents;
-        color: white;
+        display: flex;
+        color: black; /* Cambia a negro para que sea visible en impresión */
         width: 100%;
-        /*display: flex;*/
         justify-content: center;
-        vertical-align: middle;
+        align-items: center;
     }
 
     .nav-links a {
         margin: .2em;
     }
     
-    .hamburger-button{
+    .hamburger-button {
         pointer-events: none;
     }
 
-    .toxic,.mushroom{
+    .toxic, .mushroom {
         animation-play-state: paused;
     }
 
-    div:nth-child(3) h3 img{
-        display: contents;
+    div:nth-child(3) h3 img {
+        display: block; /* Mejor que `contents` */
         margin: auto;
     }
 }
