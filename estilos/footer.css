@@ -73,3 +73,19 @@ footer div:nth-of-type(2) a:hover {
 		display: inline;
 	}
 }
+
+/* botón subir  */
+#subir{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1A535C;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}

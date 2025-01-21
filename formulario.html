@@ -33,112 +33,114 @@
   gtag('config', 'G-DZE73248CR');
 </script>
 <body>
-<main class="contacto">
-    <header role="banner">
-        <h1>Conectate con nosotros</h1>  
-        <div id="hamburger-menu">
-            <button class="hamburger-button" aria-label="Abrir menú">
-                <img src="imagenes/menu.png" alt="Menú">
-            </button>            
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="servicios.html">Servicios</a>
-                <a href="formulario.html">Contacto</a>
+    <main class="contacto">
+        <header role="banner">
+            <h1>Conectate con nosotros</h1>  
+            <div id="hamburger-menu">
+                <button class="hamburger-button" aria-label="Abrir menú">
+                    <img src="imagenes/menu.png" alt="Menú">
+                </button>            
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="servicios.html">Servicios</a>
+                    <a href="formulario.html">Contacto</a>
+                </div>
             </div>
-        </div>
-        <button id="btn-color" aria-label="Cambiar color">Cambiar color</button>
-        <script src="scripts/scriptForm.js"></script>
-    </header>
+            <button id="btn-color" aria-label="Cambiar color">Cambiar color</button>
+            <script src="scripts/scriptForm.js"></script>
+        </header>
 
-    <form action="https://www.w3schools.com/action_page.php" method="POST">
-        <fieldset>
-            <legend><h2>Únete a nuestro programa de entrenamiento online</h2></legend>
-            <table>
-                <tr>
-                    <td><label for="nombre">Nombre: </label></td>
-                    <td>
-                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="apellido">Apellido: </label></td>
-                    <td>
-                        <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="edad">Edad: </label></td>
-                    <td>
-                        <input type="number" name="edad" id="edad" placeholder="Ej: 30" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="objetivo">Objetivo: </label></td>
-                    <td>
-                        <select name="objetivo" id="objetivo">
-                            <option value="perder_peso">Perder peso</option>
-                            <option value="ganar_musculo">Ganar músculo</option>
-                            <option value="mejorar_condicion">Mejorar condición física</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td><b>Nivel de actividad:</b></td>
-                    <td>
-                        <div>
-                            <input type="radio" name="nivel" id="principiante" value="principiante" required>
-                            <label for="principiante">Principiante</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="nivel" id="intermedio" value="intermedio">
-                            <label for="intermedio">Intermedio</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="nivel" id="avanzado" value="avanzado">
-                            <label for="avanzado">Avanzado</label>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="email">Email: </label></td>
-                    <td>
-                        <input type="email" name="email" id="email" placeholder="Ej: usuario@correo.com" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="telefono">Nº Teléfono: </label></td>
-                    <td>
-                        <input type="tel" name="telefono" id="telefono" placeholder="Ej: +123456789" required>
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="mensaje">Mensaje: </label></td>
-                    <td>
-                        <textarea name="mensaje" id="mensaje" placeholder="Escribe aquí tus consultas o especificaciones" rows="4"></textarea>
-                    </td>
-                </tr>
-            </table>
-            
-            <button class="my-button">Enviar</button>
-        </fieldset>
-    </form>
-</main>
+        <form action="https://www.w3schools.com/action_page.php" method="POST">
+            <fieldset>
+                <legend><h2>Únete a nuestro programa de entrenamiento online</h2></legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">Nombre: </label></td>
+                        <td>
+                            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="apellido">Apellido: </label></td>
+                        <td>
+                            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="edad">Edad: </label></td>
+                        <td>
+                            <input type="number" name="edad" id="edad" placeholder="Ej: 30" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="objetivo">Objetivo: </label></td>
+                        <td>
+                            <select name="objetivo" id="objetivo">
+                                <option value="perder_peso">Perder peso</option>
+                                <option value="ganar_musculo">Ganar músculo</option>
+                                <option value="mejorar_condicion">Mejorar condición física</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Nivel de actividad:</b></td>
+                        <td>
+                            <div>
+                                <input type="radio" name="nivel" id="principiante" value="principiante" required>
+                                <label for="principiante">Principiante</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="nivel" id="intermedio" value="intermedio">
+                                <label for="intermedio">Intermedio</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="nivel" id="avanzado" value="avanzado">
+                                <label for="avanzado">Avanzado</label>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email: </label></td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Ej: usuario@correo.com" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="telefono">Nº Teléfono: </label></td>
+                        <td>
+                            <input type="tel" name="telefono" id="telefono" placeholder="Ej: +123456789" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="mensaje">Mensaje: </label></td>
+                        <td>
+                            <textarea name="mensaje" id="mensaje" placeholder="Escribe aquí tus consultas o especificaciones" rows="4"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                
+                <button class="my-button">Enviar</button>
+            </fieldset>
+        </form>
+    </main>
 
-<footer role="contentinfo">
-    <ul class="list-inline" role="navigation" aria-label="Enlaces rápidos">
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="terminos.html">Términos</a></li>
-    </ul>       
-    <div class="social" role="region" aria-label="Enlaces a redes sociales">
-      <a href="https://www.instagram.com/" aria-label="Instagram"><img src="imagenes/icons8-instagram.svg" alt="Logo_instagram"></a>
-      <a href="https://www.facebook.com/" aria-label="Facebook"><img src="imagenes/icons8-facebook.svg" alt="Logo_facebook"></a>
-      <a href="https://www.whatsapp.com/" aria-label="WhatsApp"><img src="imagenes/icons8-whatsapp.svg" alt="Logo_whatsapp"></a>
-      <a href="https://www.twitter.com/" aria-label="Twitter"><img src="imagenes/icons8-twitter.svg" alt="Logo_twiter"></a>
-  </div>
-    <p class="copyright" style="color: black;">© 2024 Entrenador Persona - Todos los derechos reservados.Mohamed Said El Fezzazi, Ciudad Jardin</p>
-</footer>
+    <footer role="contentinfo">
+        <ul class="list-inline" role="navigation" aria-label="Enlaces rápidos">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="terminos.html">Términos</a></li>
+        </ul>       
+        <div class="social" role="region" aria-label="Enlaces a redes sociales">
+        <a href="https://www.instagram.com/" aria-label="Instagram"><img src="imagenes/icons8-instagram.svg" alt="Logo_instagram"></a>
+        <a href="https://www.facebook.com/" aria-label="Facebook"><img src="imagenes/icons8-facebook.svg" alt="Logo_facebook"></a>
+        <a href="https://www.whatsapp.com/" aria-label="WhatsApp"><img src="imagenes/icons8-whatsapp.svg" alt="Logo_whatsapp"></a>
+        <a href="https://www.twitter.com/" aria-label="Twitter"><img src="imagenes/icons8-twitter.svg" alt="Logo_twiter"></a>
+    </div>
+        <p class="copyright" style="color: black;">© 2024 Entrenador Persona - Todos los derechos reservados.Mohamed Said El Fezzazi, Ciudad Jardin</p>
+    </footer>
+
+    <button alt="Subir al inicio de la página" onclick="window.scrollTo({top:0, behavior: 'smooth'})" id="subir">⬆️ Subir</button>
 
 </body>
 </html>
