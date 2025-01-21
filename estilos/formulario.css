@@ -328,3 +328,37 @@ button{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
+
+
+/* Ubi  */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Espaciado arriba y abajo, centrado horizontal */
+    width: 90%; /* Ocupa el 90% del ancho de la página */
+    max-width: 1200px; /* Limita el ancho máximo */
+}
+
+.ubicacion-titulo {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px; /* Separación entre el título y el mapa */
+}
+
+.mapa-contenedor {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    background-color: #f9f9f9; /* Color de fondo suave */
+    border-radius: 5px; /* Bordes redondeados */
+    overflow: hidden; /* Asegura que el mapa respete el borde redondeado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Espaciado interno */
+}
+
+.mapa {
+    width: 100%; /* El mapa se ajusta al contenedor */
+    height: 400px; /* Altura del mapa */
+    border: none; /* Sin bordes adicionales */
+}
