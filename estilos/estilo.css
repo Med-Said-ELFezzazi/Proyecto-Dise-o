@@ -234,6 +234,7 @@ section div:hover img {
 
 /* Pantallas medianas*/
 @media screen and (min-width:768px) and (max-width:1023px) {
+    /* Comun */
     video {
         width: 80%; /* Reducir el ancho del video */
         max-width: 600px;
