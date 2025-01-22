@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /search
+Allow: /search/about
+Allow: /search/index
